@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Body from './components/Body';
 
-function App() {
+export default () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <Header />
+      <Body />
+      <footer>
+        <span>Feito com amor e dedicação pelo Daniel com a ajuda da B7Web!!!</span><br />
+        Direitos de imagem para netflix<br />
+        Dados pegos do site Themoviedb.org
+      </footer>
 
-export default App;
+    </div>
+  )
+
+}

@@ -1,0 +1,55 @@
+.log {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    left: 200px;
+    padding: 60px 0 0 0;
+}
+
+.text {
+    padding-top: 30px;
+    color: #782DC8;
+}
+
+.span {
+    color: rgb(64, 65, 65);
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.input {
+    height: 30px;
+    width: 290px;
+}
+
+label {
+    color: rgb(64, 65, 65);
+    padding-right: 8px;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    margin: 20px;
+    border: 0;
+    border-radius: 46px;
+    background-color: #28D2C8;
+    color: #461978;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+h2 {
+    padding-top: 30px;
+}
