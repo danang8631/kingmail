@@ -10,8 +10,7 @@ export default () => {
       <Body />
       <footer>
         <span>Feito com amor e dedicação pelo Daniel com a ajuda da B7Web!!!</span><br />
-        Direitos de imagem para netflix<br />
-        Dados pegos do site Themoviedb.org
+        Direitos de imagem para Kingmail<br />
       </footer>
 
     </div>
